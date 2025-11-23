@@ -2,7 +2,7 @@
 
 ![Project Status](https://img.shields.io/badge/Status-Active-success) ![Tech Stack](https://img.shields.io/badge/Backend-Cloudflare%20Workers-orange) ![AI](https://img.shields.io/badge/AI-Google%20Gemini-blue)
 
-## 📖 Project Overview
+## Project Overview
 
 **Smart Raasta** is an intelligent, AI-driven backend system designed to generate hyper-personalized career roadmaps for the Pakistani market. Built on a serverless architecture using **Cloudflare Workers**, it leverages the **Google Gemini API** to function as an elite "Career Strategist."
 
@@ -17,7 +17,7 @@ The system processes user inputs (Career Goal, Interests, Education, Location) a
 
 ---
 
-## 🔒 Security & Code Transparency Policy
+## Security & Code Transparency Policy
 
 **Why isn't the exact production code shared?**
 
@@ -27,7 +27,7 @@ As a live financial and educational tool, the production backend contains sensit
 2.  **Infrastructure Bindings:** Direct references to Cloudflare KV namespaces and encrypted environment secrets.
 3.  **Admin Protocols:** Internal bypass mechanisms used for system administration.
 
-### 🛡️ The "Open Source" Version
+### The "Open Source" Version
 To maintain transparency and help the developer community, we are sharing the **core logic architecture** below. This version removes the specific secrets and simplifies the proprietary prompts but retains the exact functional flow of the application.
 
 You can use this to understand how we handle **CORS**, **JWT Authentication**, and **AI Stream Handling**
